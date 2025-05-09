@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'Magneto';
+  src: url('MAGNETOB.TTF'); format('truetype');
+}
+/* General background */
+.bg {
+  background: url('Backgound\ final.JPG') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0 0 80px 0;
+}
+
+body {
+  padding-bottom: 80px;
+}
+
+.logo-image {
+  height: 80px;
+  max-width: 150px;
+  border-radius: 12px;
+  border: 2px solid lightgrey;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+.app-name {
+  font-family: 'Magneto', sans-serif;
+  font-size: 90px;
+  color: white;
+  font-weight: normal;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  margin-top: 10px;
+}
+
+/* Logo & title */
+.logo-container {
+  text-align: center;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5pxpx;
+}
+
+.logo {
+  width: 150px;
+  height: 100px;
+  border-radius: 12px;
+  border: 2px solid gray;
+  box-shadow: 0 0 10px rgba(255,255,255,0.7);
+}
+
+.title {
+  font-size: 80px;
+  color: white;
+  font-family: 'Magneto', cursive;
+  margin-top: 10px;
+   font-weight: normal;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  margin-top: 10px;
+}
+
+/* Sign-in card */
+.login-card {
+  background: white;
+  max-width: 350px;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.login-card h2 {
+  margin-bottom: 20px;
+}
+
+.login-card label {
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.login-card button:hover {
+  background-color: #f0f0f0;
+}
+
+/* Grid for audio cards */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 50px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Individual audio card */
+.card {
+  background: white;
+  border-radius: 15px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.song-name {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+audio {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 2px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  z-index: 10;
+}
